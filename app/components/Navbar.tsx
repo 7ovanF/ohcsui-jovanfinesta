@@ -6,8 +6,9 @@ export default function Navbar() {
     <div className="flex justify-between items-center p-4 bg-black">
         <h1>Jovan Finesta</h1>
         <nav>
+          {/* colorscheme toggle button */}
           <Link to="/">About Me</Link>
-          <Link to="/about">About</Link>
+          <Link to="/projects">Projects</Link>
         </nav>
     </div>
   );

@@ -1,5 +1,5 @@
 import type { Route } from "./+types/home";
-import { AboutMe } from "../pages/aboutme";
+import { AboutMe } from "../pages/Aboutme";
 
 export function meta({}: Route.MetaArgs) {
   return [
