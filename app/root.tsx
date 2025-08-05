@@ -24,6 +24,7 @@ export const links: Route.LinksFunction = () => [
 ];
 
 import Navbar from "./components/Navbar";
+import Contacts from "./components/Contacts";
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -36,7 +37,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <body>
         <Navbar />
         {children}
-        {/* <Footer /> <- for contacts */}
+        <Contacts />
         <ScrollRestoration />
         <Scripts />
       </body>
