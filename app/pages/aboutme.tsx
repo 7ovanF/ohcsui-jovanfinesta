@@ -3,23 +3,17 @@ import logoLight from "./logo-light.svg";
 
 export function AboutMe() {
   return (
-    <main className="flex items-center justify-center pt-16 pb-4">
-      <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
-        <header className="flex flex-col items-center gap-9">
-          <div className="w-[500px] max-w-[100vw] p-4">
-            <img
-              src={logoLight}
-              alt="React Router"
-              className="block w-full dark:hidden"
-            />
-            <img
-              src={logoDark}
-              alt="React Router"
-              className="hidden w-full dark:block"
-            />
+    <main className="flex items-center justify-center py-24">
+      <div className="flex-1 flex flex-col items-center min-h-0">
+        <header className="flex flex-col items-center gap-2 px-16 py-8 border-4 border-dashed rounded-4xl border-blue-500">
+          <div className="text-6xl font-extrabold">
+            Jovan Finesta
+          </div>
+          <div className="text-xl">
+            A Newbie Web Dev; (a bit) experienced in both Frontend and Backend
           </div>
         </header>
-        <div className="max-w-[300px] w-full space-y-6 px-4">
+        {/* <div className="max-w-[300px] w-full space-y-6 px-4">
           <nav className="rounded-3xl border border-gray-200 p-6 dark:border-gray-700 space-y-4">
             <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
               What&apos;s next?
@@ -40,7 +34,7 @@ export function AboutMe() {
               ))}
             </ul>
           </nav>
-        </div>
+        </div> */}
       </div>
     </main>
   );
